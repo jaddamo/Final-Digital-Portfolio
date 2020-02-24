@@ -134,3 +134,7 @@ div:not(.container):not(.row):not(.navbar):not(.footbrand){
     min-width: 200px;
     height: 300px;
 }
+
+.form-row {
+    color: aquamarine;
+}
