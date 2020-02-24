@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    font-family: 'Simonetta', cursive;   
+}
+
+body {
+    margin: 0px;
+    background-color: beige;
+    background-size: initial;
+    background-image: url("./skyline.jpg");
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: left;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-size: 20px;
+}
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+.card #profile-card {
+    float: left;
+    clear: both;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+    color: burlywood;
+}
+
+.card {
+    float: left;
+}
+
+h1 {
+    font-size: xx-large;
+    color: burlywood;
+}
+h2{
+    color: burlywood;
+}
+
+img {
+    height: 333.41px;
+    width: 290;
+}
+ul li {
+    color: burlywood;
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
+h3 {
+    color: burlywood;
+}
+
+.dropdown-item {
+    color: burlywood;
+}
+
+.about-me {
+    color: burlywood;
+}
+#aboutme-head {
+    font-size: 20px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+div:not(.container):not(.row):not(.navbar):not(.footbrand){
+    min-height: 20px;
+    border: 2px solid burlywood;
+    background-color: rgb(40, 37, 41);
+  }
+
+  .navbar-expand-lg {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    
+  }
+
+  .navbar-default {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+
+  .footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 6%;
+  }
+  
+  .brand {
+    position: fixed;
+    right: 40%;
+    bottom: 0%;
+  }
+  
+  #book-container { 
+    overflow-y: scroll;
+    min-width: 200px;
+    height: 300px;
+}
