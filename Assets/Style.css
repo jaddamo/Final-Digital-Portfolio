@@ -31,10 +31,6 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-.card #profile-card {
-    float: left;
-    clear: both;
-}
 
 a {
     color: #ffffff;
@@ -47,7 +43,8 @@ p {
 }
 
 .card {
-    float: left;
+    color: beige;
+    text-align: center;
 }
 
 h1 {
