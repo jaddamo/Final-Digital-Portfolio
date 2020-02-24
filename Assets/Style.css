@@ -138,3 +138,18 @@ div:not(.container):not(.row):not(.navbar):not(.footbrand){
 .form-row {
     color: aquamarine;
 }
+
+input:hover:not(.input-msg) {
+    width: 25%;
+}
+
+.input-msg { 
+    overflow-y: scroll;
+    min-height: 6em;
+    min-width: 6em;
+    width: 50em;
+}
+
+.input-msg:hover {
+    width: 65em;
+}
