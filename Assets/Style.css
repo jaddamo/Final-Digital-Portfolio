@@ -5,12 +5,17 @@
     font-family: 'Simonetta', cursive;   
 }
 
+*:hover{
+    color:wheat;
+}
+
 body {
     margin: 0px;
     background-color: beige;
     background-size: initial;
     background-image: url("./skyline.jpg");
 }
+
 
 .header h1 {
     display: inline-block;
@@ -132,7 +137,30 @@ div:not(.container):not(.row):not(.navbar):not(.footbrand){
   #book-container { 
     overflow-y: scroll;
     min-width: 200px;
-    height: 300px;
+    height: 400px;
+    align-content: center;
+}
+
+#pic1:hover{
+    transform: rotate(10deg);
+    border: 1;
+}
+
+#profPic-container{
+    justify-content: center;    
+}
+
+#prof-pic:hover{
+    position: absolute;
+    max-width: none;
+    max-height: none;
+    left: -10%;
+    transform: rotate(-15deg);
+}
+
+#pic1 {
+    height: 340px;
+    width: 345px;
 }
 
 .form-row {
